@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\ref\LinqExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\bin\Debug\net5.0\LinqExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\ref\LinqExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LinqExample\obj\Debug\net5.0\LinqExample.genruntimeconfig.cache
