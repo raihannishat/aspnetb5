@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31129.286
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqExample", "LinqExample\LinqExample.csproj", "{9E0794E7-603C-4183-A197-45A89F509001}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinqExample", "LinqExample\LinqExample.csproj", "{9E0794E7-603C-4183-A197-45A89F509001}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpLinq", "CSharpLinq\CSharpLinq.csproj", "{8FD01636-0694-4A67-99DB-58EC14D0A67E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpression", "LambdaExpression\LambdaExpression.csproj", "{294DF62D-3C08-47F5-A706-B3F0C214635E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{9E0794E7-603C-4183-A197-45A89F509001}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E0794E7-603C-4183-A197-45A89F509001}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E0794E7-603C-4183-A197-45A89F509001}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FD01636-0694-4A67-99DB-58EC14D0A67E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FD01636-0694-4A67-99DB-58EC14D0A67E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FD01636-0694-4A67-99DB-58EC14D0A67E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FD01636-0694-4A67-99DB-58EC14D0A67E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{294DF62D-3C08-47F5-A706-B3F0C214635E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{294DF62D-3C08-47F5-A706-B3F0C214635E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{294DF62D-3C08-47F5-A706-B3F0C214635E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{294DF62D-3C08-47F5-A706-B3F0C214635E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
