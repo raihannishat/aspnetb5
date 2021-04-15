@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\ref\LambdaExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\bin\Debug\net5.0\LambdaExpression.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\ref\LambdaExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\ref\CSharpLinq.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\bin\Debug\net5.0\CSharpLinq.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\ref\CSharpLinq.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\CSharpLinq\obj\Debug\net5.0\CSharpLinq.genruntimeconfig.cache
