@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\ref\TupleExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\bin\Debug\net5.0\TupleExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\ref\TupleExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\TupleExample\obj\Debug\net5.0\TupleExample.genruntimeconfig.cache

@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\ref\Func.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\bin\Debug\net5.0\Func.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\ref\Func.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Func\obj\Debug\net5.0\Func.genruntimeconfig.cache

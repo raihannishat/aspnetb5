@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\ref\Reflection.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\bin\Debug\net5.0\Reflection.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\ref\Reflection.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.genruntimeconfig.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Reflection\obj\Debug\net5.0\Reflection.csprojAssemblyReference.cache

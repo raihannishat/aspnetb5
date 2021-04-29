@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ref\ActionDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\bin\Debug\net5.0\ActionDelegate.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ref\ActionDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ActionDelegate\obj\Debug\net5.0\ActionDelegate.genruntimeconfig.cache

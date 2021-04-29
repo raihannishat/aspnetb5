@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\ref\Event.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\bin\Debug\net5.0\Event.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\ref\Event.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Event\obj\Debug\net5.0\Event.genruntimeconfig.cache

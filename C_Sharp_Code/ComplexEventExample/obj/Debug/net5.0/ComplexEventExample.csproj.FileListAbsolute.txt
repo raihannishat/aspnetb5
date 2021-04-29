@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ref\ComplexEventExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\bin\Debug\net5.0\ComplexEventExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ref\ComplexEventExample.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\ComplexEventExample\obj\Debug\net5.0\ComplexEventExample.genruntimeconfig.cache

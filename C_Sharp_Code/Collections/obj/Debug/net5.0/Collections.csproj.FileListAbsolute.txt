@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\ref\Collections.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\bin\Debug\net5.0\Collections.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\ref\Collections.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.genruntimeconfig.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\Collections\obj\Debug\net5.0\Collections.csprojAssemblyReference.cache

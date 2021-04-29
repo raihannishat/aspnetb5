@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\ref\FuncFilterList.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\bin\Debug\net5.0\FuncFilterList.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\ref\FuncFilterList.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncFilterList\obj\Debug\net5.0\FuncFilterList.genruntimeconfig.cache

@@ -13,3 +13,4 @@ D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExp
 D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\ref\LambdaExpression.dll
 D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.pdb
 D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.genruntimeconfig.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\LambdaExpression\obj\Debug\net5.0\LambdaExpression.csprojAssemblyReference.cache

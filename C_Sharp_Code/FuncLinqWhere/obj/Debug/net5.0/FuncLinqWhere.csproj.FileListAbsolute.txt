@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\ref\FuncLinqWhere.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\bin\Debug\net5.0\FuncLinqWhere.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\ref\FuncLinqWhere.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\FuncLinqWhere\obj\Debug\net5.0\FuncLinqWhere.genruntimeconfig.cache

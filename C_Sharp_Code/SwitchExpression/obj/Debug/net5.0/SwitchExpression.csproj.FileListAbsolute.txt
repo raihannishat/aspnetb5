@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\ref\SwitchExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\bin\Debug\net5.0\SwitchExpression.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\ref\SwitchExpression.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\SwitchExpression\obj\Debug\net5.0\SwitchExpression.genruntimeconfig.cache

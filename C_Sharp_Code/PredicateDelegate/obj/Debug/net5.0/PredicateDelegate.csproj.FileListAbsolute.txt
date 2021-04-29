@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.exe
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.deps.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\ref\PredicateDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\bin\Debug\net5.0\PredicateDelegate.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\ref\PredicateDelegate.dll
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.pdb
+D:\Code\GitHub\aspnetb5\C_Sharp_Code\PredicateDelegate\obj\Debug\net5.0\PredicateDelegate.genruntimeconfig.cache
