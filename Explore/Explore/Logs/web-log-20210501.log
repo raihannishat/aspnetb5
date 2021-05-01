@@ -1,0 +1,44 @@
+2021-05-01 16:37:16.811 +06:00 [INF] Application Starting up
+2021-05-01 16:37:22.004 +06:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-05-01 16:37:22.371 +06:00 [FTL] Application start-up failed
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Explore.Program.Main(String[] args) in D:\Code\ASP.NET\Explore\Explore\Program.cs:line 33
+2021-05-01 16:41:03.292 +06:00 [INF] Application Starting up
+2021-05-01 16:41:06.409 +06:00 [FTL] Application startup exception
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+2021-05-01 16:41:06.618 +06:00 [FTL] Application start-up failed
+System.InvalidOperationException: Unable to resolve service for type 'Microsoft.AspNetCore.Session.ISessionStore' while attempting to activate 'Microsoft.AspNetCore.Session.SessionMiddleware'.
+   at Microsoft.Extensions.Internal.ActivatorUtilities.ConstructorMatcher.CreateInstance(IServiceProvider provider)
+   at Microsoft.Extensions.Internal.ActivatorUtilities.CreateInstance(IServiceProvider provider, Type instanceType, Object[] parameters)
+   at Microsoft.AspNetCore.Builder.UseMiddlewareExtensions.<>c__DisplayClass5_0.<UseMiddleware>b__0(RequestDelegate next)
+   at Microsoft.AspNetCore.Builder.ApplicationBuilder.Build()
+   at Microsoft.AspNetCore.Hosting.GenericWebHostService.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.Internal.Host.StartAsync(CancellationToken cancellationToken)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.RunAsync(IHost host, CancellationToken token)
+   at Microsoft.Extensions.Hosting.HostingAbstractionsHostExtensions.Run(IHost host)
+   at Explore.Program.Main(String[] args) in D:\Code\ASP.NET\Explore\Explore\Program.cs:line 33
+2021-05-01 16:43:12.297 +06:00 [INF] Application Starting up
+2021-05-01 16:46:06.804 +06:00 [INF] Application Starting up
+2021-05-01 16:47:34.196 +06:00 [INF] Application Starting up
+
