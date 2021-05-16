@@ -1,0 +1,16 @@
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.exe
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.deps.json
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.runtimeconfig.json
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.runtimeconfig.dev.json
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.dll
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\ref\Question-2.dll
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\bin\Debug\net5.0\Question-2.pdb
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.dll
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\ref\Question-2.dll
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.pdb
+D:\Code\GitHub\aspnetb5\Question-2\Question-2\obj\Debug\net5.0\Question-2.genruntimeconfig.cache
