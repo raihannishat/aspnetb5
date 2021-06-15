@@ -1,0 +1,15 @@
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\Salesforce.Data.deps.json
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\Salesforce.Data.runtimeconfig.json
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\Salesforce.Data.runtimeconfig.dev.json
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\Salesforce.Data.dll
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\ref\Salesforce.Data.dll
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\bin\Debug\net5.0\Salesforce.Data.pdb
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.AssemblyInfoInputs.cache
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.AssemblyInfo.cs
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.csproj.CoreCompileInputs.cache
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.dll
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\ref\Salesforce.Data.dll
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.pdb
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.genruntimeconfig.cache
+C:\Users\Raihan Nishat\source\repos\Salesforce\Salesforce.Data\obj\Debug\net5.0\Salesforce.Data.csprojAssemblyReference.cache
