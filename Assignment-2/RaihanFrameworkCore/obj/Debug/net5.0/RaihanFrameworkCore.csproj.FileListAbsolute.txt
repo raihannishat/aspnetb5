@@ -1,0 +1,12 @@
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\bin\Debug\net5.0\RaihanFrameworkCore.deps.json
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\bin\Debug\net5.0\RaihanFrameworkCore.dll
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\bin\Debug\net5.0\ref\RaihanFrameworkCore.dll
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\bin\Debug\net5.0\RaihanFrameworkCore.pdb
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.csproj.AssemblyReference.cache
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.dll
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\ref\RaihanFrameworkCore.dll
+D:\Code\GitHub\aspnetb5\Assignment-2\RaihanFrameworkCore\obj\Debug\net5.0\RaihanFrameworkCore.pdb
