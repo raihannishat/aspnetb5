@@ -22,8 +22,7 @@ namespace RaihanFrameworkCore
             _connection.Open();
         }
 
-        public MyORM(string connectionString)
-            : this(new SqlConnection(connectionString))
+        public MyORM(string connectionString) : this(new SqlConnection(connectionString))
         {
             _sqlBuilder = new SqlBuilder();
         }
@@ -53,17 +52,46 @@ namespace RaihanFrameworkCore
             _command.ExecuteNonQuery();
         }
 
-        public void GetById(int id)
+        public T GetById(int id)
         {
+            var entity = Activator.CreateInstance(typeof(T));
             var sql = _sqlBuilder.GetSelectById(typeof(T));
             _command = new SqlCommand(sql, _connection);
             _command.Parameters.AddWithValue($"@Id", id);
-            _command.ExecuteNonQuery();
+            var reader = _command.ExecuteReader();
+
+            while (reader.Read())
+            {
+                foreach (var prop in typeof(T).GetProperties())
+                {
+                    prop.SetValue(entity, reader[prop.Name]);
+                }
+            }
+
+            return (T)entity;
         }
 
         public IList<T> GetAll()
         {
-            return new List<T>();
+            var entityList = Activator.CreateInstance(typeof(List<>).MakeGenericType(typeof(T)), new object[0]);
+            var sql = _sqlBuilder.GetSelectSql(typeof(T));
+            _command = new SqlCommand(sql, _connection);
+            var reader = _command.ExecuteReader();
+            var add = entityList.GetType().GetMethod("Add", new Type[] { typeof(T) });
+           
+            while (reader.Read())
+            {
+                var entity = Activator.CreateInstance(typeof(T));
+
+                foreach (var prop in typeof(T).GetProperties())
+                {
+                    prop.SetValue(entity, reader[prop.Name]);
+                }
+
+                add.Invoke(entityList, new object[] { entity });
+            }
+
+            return (IList<T>)entityList;
         }
 
         public void ParameterBinder(T item, ref SqlCommand _command, string sql)

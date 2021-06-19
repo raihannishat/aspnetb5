@@ -11,11 +11,15 @@ namespace Test
 
             var orm = new MyORM<Students>(connectionString);
 
-            orm.Update(new Students()
+            var students = orm.GetAll();
+
+            foreach (var item in students)
             {
-                Id = 1,
-                CGPA = 3.50
-            });
+                Console.WriteLine(item.Id);
+                Console.WriteLine(item.Name);
+                Console.WriteLine(item.CGPA);
+                Console.WriteLine();
+            }
         }
     }
 }
