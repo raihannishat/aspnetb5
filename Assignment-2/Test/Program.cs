@@ -1,5 +1,6 @@
 ﻿using RaihanFrameworkCore;
 using System;
+using ConsoleTables;
 
 namespace Test
 {
@@ -7,19 +8,51 @@ namespace Test
     {
         static void Main(string[] args)
         {
-            var connectionString = "Server = DESKTOP-U5E976U; Database = BitCoinPriceDb; Trusted_Connection = true"; ;
+            var connectionString = "Server = DESKTOP-U5E976U;" +
+                                   "Database = BitCoinPriceDb;" +
+                                   "Trusted_Connection = true";
+
+            var student = new Students
+            {
+                Id = 1,
+                Name = "Jalal Uddin",
+            };
 
             var orm = new MyORM<Students>(connectionString);
 
-            var students = orm.GetAll();
+            #region Create
+            //orm.Insert(student);
+            #endregion
 
-            foreach (var item in students)
-            {
-                Console.WriteLine(item.Id);
-                Console.WriteLine(item.Name);
-                Console.WriteLine(item.CGPA);
-                Console.WriteLine();
-            }
+            #region Read
+            //var studentList = orm.GetAll();
+
+            //var table = new ConsoleTable("ID", "Name", "CGPA");
+
+            //foreach (var item in studentList)
+            //{
+            //    table.AddRow(item.Id, item.Name, item.CGPA);
+            //}
+
+            //table.Write();
+            #endregion
+
+            #region Update
+            //orm.Update(student);
+            #endregion
+
+            #region Delete by Entity
+            //orm.Delete(student);
+            #endregion
+
+            #region Delete by Id
+            //orm.Delete(3);
+            #endregion
+
+            #region GetById
+            //var entity = orm.GetById(3);
+            //Console.WriteLine(entity);
+            #endregion
         }
     }
 }

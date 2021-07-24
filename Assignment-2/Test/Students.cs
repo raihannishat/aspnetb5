@@ -11,6 +11,6 @@ namespace Test
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public decimal? CGPA { get; set; }
+        public double? CGPA { get; set; }
     }
 }

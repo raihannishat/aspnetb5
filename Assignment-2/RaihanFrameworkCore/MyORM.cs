@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using System.Data.SqlClient;
 using System.Data;
 using System.Reflection;
+using ConsoleTables;
 
 namespace RaihanFrameworkCore
 {
@@ -22,9 +23,10 @@ namespace RaihanFrameworkCore
             _connection.Open();
         }
 
-        public MyORM(string connectionString) : this(new SqlConnection(connectionString))
+        public MyORM(string connectionString) : 
+            this(new SqlConnection(connectionString))
         {
-            _sqlBuilder = new SqlBuilder();
+            
         }
 
         public void Insert(T item)
@@ -78,7 +80,7 @@ namespace RaihanFrameworkCore
             _command = new SqlCommand(sql, _connection);
             var reader = _command.ExecuteReader();
             var add = entityList.GetType().GetMethod("Add", new Type[] { typeof(T) });
-           
+
             while (reader.Read())
             {
                 var entity = Activator.CreateInstance(typeof(T));
@@ -94,7 +96,7 @@ namespace RaihanFrameworkCore
             return (IList<T>)entityList;
         }
 
-        public void ParameterBinder(T item, ref SqlCommand _command, string sql)
+        private void ParameterBinder(T item, ref SqlCommand _command, string sql)
         {
             var type = item.GetType();
             _command = new SqlCommand(sql, _connection);
