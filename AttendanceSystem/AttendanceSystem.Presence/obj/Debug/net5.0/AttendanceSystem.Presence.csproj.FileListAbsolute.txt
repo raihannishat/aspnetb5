@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\AttendanceSystem.Presence.deps.json
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\AttendanceSystem.Presence.dll
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\ref\AttendanceSystem.Presence.dll
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\AttendanceSystem.Presence.pdb
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\AttendanceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\bin\Debug\net5.0\AttendanceSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.csproj.AssemblyReference.cache
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.csproj.CopyComplete
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.dll
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\ref\AttendanceSystem.Presence.dll
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Presence\obj\Debug\net5.0\AttendanceSystem.Presence.pdb
