@@ -1,0 +1,12 @@
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\bin\Debug\net5.0\ECommerceSystem.Data.deps.json
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\bin\Debug\net5.0\ECommerceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\bin\Debug\net5.0\ref\ECommerceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\bin\Debug\net5.0\ECommerceSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ref\ECommerceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.csprojAssemblyReference.cache

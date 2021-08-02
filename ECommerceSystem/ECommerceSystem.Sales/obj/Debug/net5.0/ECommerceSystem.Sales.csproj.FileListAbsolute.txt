@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ECommerceSystem.Sales.deps.json
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ECommerceSystem.Sales.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ref\ECommerceSystem.Sales.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ECommerceSystem.Sales.pdb
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ECommerceSystem.Data.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\bin\Debug\net5.0\ECommerceSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.csproj.CopyComplete
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ref\ECommerceSystem.Sales.dll
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.pdb
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Sales\obj\Debug\net5.0\ECommerceSystem.Sales.csproj.AssemblyReference.cache
