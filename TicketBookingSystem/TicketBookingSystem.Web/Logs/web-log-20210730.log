@@ -1,0 +1,358 @@
+2021-07-30 11:24:12.583 +06:00 [INF] Application Starting up
+2021-07-30 11:29:42.550 +06:00 [INF] Application Starting up
+2021-07-30 11:34:42.156 +06:00 [INF] Application Starting up
+2021-07-30 11:46:26.318 +06:00 [INF] Application Starting up
+2021-07-30 11:48:31.356 +06:00 [INF] Application Starting up
+2021-07-30 11:48:33.384 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 11:49:05.425 +06:00 [INF] Application Starting up
+2021-07-30 11:50:39.619 +06:00 [INF] Application Starting up
+2021-07-30 11:51:30.150 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'TicketBookingSystem.Web.Areas.Admin.Models.CustomerListModel', but this ViewDataDictionary instance requires a model item of type 'TicketBookingSystem.Web.Areas.Admin.Models.CreateCustomerModel'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method585(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.<ExecuteAsync>b__15_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 11:51:56.481 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'TicketBookingSystem.Web.Areas.Admin.Models.CreateTitketModel', but this ViewDataDictionary instance requires a model item of type 'TicketBookingSystem.Web.Areas.Admin.Models.CreateCustomerModel'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method585(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.<ExecuteAsync>b__15_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 11:52:34.492 +06:00 [INF] Application Starting up
+2021-07-30 11:52:52.902 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The model item passed into the ViewDataDictionary is of type 'TicketBookingSystem.Web.Areas.Admin.Models.CustomerListModel', but this ViewDataDictionary instance requires a model item of type 'TicketBookingSystem.Web.Areas.Admin.Models.CreateCustomerModel'.
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary.EnsureCompatible(Object value)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewDataDictionary..ctor(ViewDataDictionary source, Object model, Type declaredModelType)
+   at lambda_method594(Closure , ViewDataDictionary )
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.CreateViewDataDictionary(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPagePropertyActivator.Activate(Object page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorPageActivator.Activate(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.RenderPartialViewAsync(TextWriter writer, Object model, IView view)
+   at Microsoft.AspNetCore.Mvc.TagHelpers.PartialTagHelper.ProcessAsync(TagHelperContext context, TagHelperOutput output)
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperRunner.<RunAsync>g__Awaited|0_0(Task task, TagHelperExecutionContext executionContext, Int32 i, Int32 count)
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.<ExecuteAsync>b__15_1()
+   at Microsoft.AspNetCore.Razor.Runtime.TagHelpers.TagHelperExecutionContext.SetOutputContentAsync()
+   at AspNetCore.Areas_Admin_Views_Shared__AdminLayout.ExecuteAsync()
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageCoreAsync(IRazorPage page, ViewContext context)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderPageAsync(IRazorPage page, ViewContext context, Boolean invokeViewStarts)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderLayoutAsync(ViewContext context, ViewBufferTextWriter bodyWriter)
+   at Microsoft.AspNetCore.Mvc.Razor.RazorView.RenderAsync(ViewContext context)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ViewContext viewContext, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewExecutor.ExecuteAsync(ActionContext actionContext, IView view, ViewDataDictionary viewData, ITempDataDictionary tempData, String contentType, Nullable`1 statusCode)
+   at Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor.ExecuteAsync(ActionContext context, ViewResult result)
+   at Microsoft.AspNetCore.Mvc.ViewResult.ExecuteResultAsync(ActionContext context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResultFilterAsync>g__Awaited|29_0[TFilter,TFilterAsync](ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResultExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeResultFilters()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeNextResourceFilter>g__Awaited|24_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Rethrow(ResourceExecutedContextSealed context)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.InvokeFilterPipelineAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Awaited|17_0(ResourceInvoker invoker, Task task, IDisposable scope)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|6_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Session.SessionMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Authentication.AuthenticationMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 11:54:42.520 +06:00 [INF] Application Starting up
+2021-07-30 12:01:50.639 +06:00 [INF] Application Starting up
+2021-07-30 12:06:04.924 +06:00 [INF] Application Starting up
+2021-07-30 12:06:25.810 +06:00 [INF] Application Starting up
+2021-07-30 12:07:29.075 +06:00 [INF] Application Starting up
+2021-07-30 12:08:19.185 +06:00 [INF] Application Starting up
+2021-07-30 12:09:08.805 +06:00 [INF] Application Starting up
+2021-07-30 12:10:14.728 +06:00 [INF] Application Starting up
+2021-07-30 12:10:56.064 +06:00 [INF] Application Starting up
+2021-07-30 12:11:46.154 +06:00 [INF] Application Starting up
+2021-07-30 12:12:27.876 +06:00 [INF] Application Starting up
+2021-07-30 12:12:53.468 +06:00 [INF] Application Starting up
+2021-07-30 12:12:55.546 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'Asmin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 12:13:22.092 +06:00 [INF] Application Starting up
+2021-07-30 12:13:24.776 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 12:15:41.186 +06:00 [INF] Application Starting up
+2021-07-30 14:33:39.243 +06:00 [INF] Application Starting up
+2021-07-30 14:34:06.957 +06:00 [INF] Application Starting up
+2021-07-30 14:42:07.555 +06:00 [INF] Application Starting up
+2021-07-30 16:20:29.990 +06:00 [INF] Application Starting up
+2021-07-30 16:21:25.972 +06:00 [INF] Application Starting up
+2021-07-30 16:21:58.690 +06:00 [INF] Application Starting up
+2021-07-30 16:23:06.948 +06:00 [INF] Application Starting up
+2021-07-30 16:23:10.583 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 16:23:53.372 +06:00 [INF] Application Starting up
+2021-07-30 16:23:57.971 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 16:25:34.150 +06:00 [INF] Application Starting up
+2021-07-30 16:26:19.739 +06:00 [INF] Application Starting up
+2021-07-30 16:26:47.944 +06:00 [INF] Application Starting up
+2021-07-30 16:26:51.533 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'Admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidate(Endpoint endpoint, Int32 score)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.CreateCandidates(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.<AddNode>g__Transition|26_0(DfaNode next, <>c__DisplayClass26_0& )
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.AddNode(DfaNode node, DfaState[] states, Int32 exitDestination)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherBuilder.Build()
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher.CreateMatcher(IReadOnlyList`1 endpoints)
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 16:28:04.373 +06:00 [INF] Application Starting up
+2021-07-30 16:30:26.463 +06:00 [INF] Application Starting up
+2021-07-30 16:31:38.872 +06:00 [INF] Application Starting up
+2021-07-30 16:33:13.922 +06:00 [INF] Application Starting up
+2021-07-30 21:56:37.389 +06:00 [INF] Application Starting up
+2021-07-30 21:56:42.858 +06:00 [ERR] An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: The constraint reference 'admin' could not be resolved to a type. Register the constraint type with 'Microsoft.AspNetCore.Routing.RouteOptions.ConstraintMap'.
+   at Microsoft.AspNetCore.Routing.DefaultParameterPolicyFactory.Create(RoutePatternParameterPart parameter, String inlineText)
+   at Microsoft.AspNetCore.Routing.ParameterPolicyFactory.Create(RoutePatternParameterPart parameter, RoutePatternParameterPolicyReference reference)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.MatchesConstraints(RoutePattern pattern, RoutePatternParameterPart parameter, String key, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValuesCore(RoutePattern original, RouteValueDictionary requiredValues)
+   at Microsoft.AspNetCore.Routing.Patterns.DefaultRoutePatternTransformer.SubstituteRequiredValues(RoutePattern original, Object requiredValues)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointFactory.AddEndpoints(List`1 endpoints, HashSet`1 routeNames, ActionDescriptor action, IReadOnlyList`1 routes, IReadOnlyList`1 conventions, Boolean createInertEndpoints)
+   at Microsoft.AspNetCore.Mvc.Routing.ControllerActionEndpointDataSource.CreateEndpoints(IReadOnlyList`1 actions, IReadOnlyList`1 conventions)
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.UpdateEndpoints()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.Initialize()
+   at Microsoft.AspNetCore.Mvc.Routing.ActionEndpointDataSourceBase.get_Endpoints()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.<>c.<Initialize>b__15_0(EndpointDataSource d)
+   at System.Linq.Enumerable.SelectManySingleSelectorIterator`2.ToArray()
+   at System.Linq.Enumerable.ToArray[TSource](IEnumerable`1 source)
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.Initialize()
+   at Microsoft.AspNetCore.Routing.CompositeEndpointDataSource.GetChangeToken()
+   at Microsoft.AspNetCore.Routing.DataSourceDependentCache`1.Initialize()
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at System.Threading.LazyInitializer.EnsureInitialized[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DataSourceDependentMatcher..ctor(EndpointDataSource dataSource, Lifetime lifetime, Func`1 matcherBuilderFactory)
+   at Microsoft.AspNetCore.Routing.Matching.DfaMatcherFactory.CreateMatcher(EndpointDataSource dataSource)
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.InitializeCoreAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Routing.EndpointRoutingMiddleware.<Invoke>g__AwaitMatcher|8_0(EndpointRoutingMiddleware middleware, HttpContext httpContext, Task`1 matcherTask)
+   at Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.MigrationsEndPointMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+2021-07-30 21:57:08.458 +06:00 [INF] Application Starting up
+2021-07-30 22:02:54.541 +06:00 [INF] Application Starting up
