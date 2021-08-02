@@ -41,7 +41,8 @@ namespace SocialNetwork.Web
         public void ConfigureContainer(ContainerBuilder container)
         {
             var connection = GetConnectionStringAndAssembly();
-            container.RegisterModule(new ProfileModule(connection.connectionString, connection.migrationAssembly));
+            container.RegisterModule(new ProfileModule(connection.connectionString, 
+		connection.migrationAssembly));
         }
 
         private (string connectionString, string migrationAssembly) GetConnectionStringAndAssembly()
