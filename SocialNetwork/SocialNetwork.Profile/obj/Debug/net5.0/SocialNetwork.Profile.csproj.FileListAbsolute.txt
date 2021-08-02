@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\SocialNetwork.Profile.deps.json
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\SocialNetwork.Profile.dll
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\ref\SocialNetwork.Profile.dll
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\SocialNetwork.Profile.pdb
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\SocialNetwork.Data.dll
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\bin\Debug\net5.0\SocialNetwork.Data.pdb
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.csproj.AssemblyReference.cache
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.csproj.CopyComplete
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.dll
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\ref\SocialNetwork.Profile.dll
+D:\Code\GitHub\aspnetb5\SocialNetwork\SocialNetwork.Profile\obj\Debug\net5.0\SocialNetwork.Profile.pdb
