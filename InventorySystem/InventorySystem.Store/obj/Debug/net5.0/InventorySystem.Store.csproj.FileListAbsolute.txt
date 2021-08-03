@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\InventorySystem.Store.deps.json
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\InventorySystem.Store.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\ref\InventorySystem.Store.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\InventorySystem.Store.pdb
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\InventorySystem.Data.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\bin\Debug\net5.0\InventorySystem.Data.pdb
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.csproj.AssemblyReference.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.csproj.CopyComplete
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\ref\InventorySystem.Store.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Store\obj\Debug\net5.0\InventorySystem.Store.pdb

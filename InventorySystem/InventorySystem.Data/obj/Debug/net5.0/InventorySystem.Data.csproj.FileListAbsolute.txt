@@ -1,0 +1,12 @@
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\bin\Debug\net5.0\InventorySystem.Data.deps.json
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\bin\Debug\net5.0\InventorySystem.Data.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\bin\Debug\net5.0\ref\InventorySystem.Data.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\bin\Debug\net5.0\InventorySystem.Data.pdb
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.csproj.AssemblyReference.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\ref\InventorySystem.Data.dll
+D:\Code\GitHub\aspnetb5\InventorySystem\InventorySystem.Data\obj\Debug\net5.0\InventorySystem.Data.pdb
