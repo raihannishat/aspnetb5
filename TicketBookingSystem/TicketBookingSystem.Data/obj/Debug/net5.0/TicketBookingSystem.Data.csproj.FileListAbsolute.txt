@@ -2,7 +2,6 @@ D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\bin\Debug\n
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\bin\Debug\net5.0\TicketBookingSystem.Data.dll
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\bin\Debug\net5.0\ref\TicketBookingSystem.Data.dll
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\bin\Debug\net5.0\TicketBookingSystem.Data.pdb
-D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\obj\Debug\net5.0\TicketBookingSystem.Data.csproj.AssemblyReference.cache
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\obj\Debug\net5.0\TicketBookingSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\obj\Debug\net5.0\TicketBookingSystem.Data.AssemblyInfoInputs.cache
 D:\Code\GitHub\aspnetb5\TicketBookingSystem\TicketBookingSystem.Data\obj\Debug\net5.0\TicketBookingSystem.Data.AssemblyInfo.cs

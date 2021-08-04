@@ -18,6 +18,11 @@ namespace TicketBookingSystem.Web.Areas.Admin.Models
             _tickerService = Startup.AutofacContainer.Resolve<ITickerService>();
         }
 
+        public EditTicketModel(ITickerService tickerService)
+        {
+            _tickerService = tickerService;
+        }
+
         public void LoadModelData(int id)
         {
             var ticket = _tickerService.GetTicket(id);

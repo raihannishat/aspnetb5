@@ -23,6 +23,11 @@ namespace TicketBookingSystem.Web.Areas.Admin.Models
             _customerService = Startup.AutofacContainer.Resolve<ICustomerService>();
         }
 
+        public EditCustomerModel(ICustomerService customerService)
+        {
+            _customerService = customerService;
+        }
+
         public void LoadModelData(int id)
         {
             var customer = _customerService.GetCustomer(id);
