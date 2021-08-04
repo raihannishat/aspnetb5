@@ -9,4 +9,4 @@ D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\EC
 D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ref\ECommerceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.pdb
-D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.csprojAssemblyReference.cache
+D:\Code\GitHub\aspnetb5\ECommerceSystem\ECommerceSystem.Data\obj\Debug\net5.0\ECommerceSystem.Data.csproj.AssemblyReference.cache

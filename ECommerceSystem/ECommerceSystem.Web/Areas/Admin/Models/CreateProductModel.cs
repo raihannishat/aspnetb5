@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using Autofac;
-using System.Threading.Tasks;
+﻿using Autofac;
 using ECommerceSystem.Sales.Services;
 using ECommerceSystem.Sales.BusinessObjects;
 using System.ComponentModel.DataAnnotations;

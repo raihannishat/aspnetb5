@@ -1,10 +1,8 @@
-﻿using ECommerceSystem.Sales.BusinessObjects;
-using ECommerceSystem.Sales.UnitOfWorks;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using ECommerceSystem.Sales.UnitOfWorks;
+using ECommerceSystem.Sales.BusinessObjects;
 
 namespace ECommerceSystem.Sales.Services
 {

@@ -1,5 +1,5 @@
-﻿using ECommerceSystem.Sales.Repositories;
-using ECommerceSystem.Data;
+﻿using ECommerceSystem.Data;
+using ECommerceSystem.Sales.Repositories;
 
 namespace ECommerceSystem.Sales.UnitOfWorks
 {

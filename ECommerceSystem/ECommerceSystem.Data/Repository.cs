@@ -1,15 +1,14 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Linq.Dynamic.Core;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
+using System.Linq.Dynamic.Core;
+using System.Collections.Generic;
+using Microsoft.EntityFrameworkCore;
 
 namespace ECommerceSystem.Data
 {
-    public class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : class, IEntity<TKey>
+    public abstract class Repository<TEntity, TKey> : 
+        IRepository<TEntity, TKey> where TEntity : class, IEntity<TKey>
     {
         protected readonly DbContext _dbContext;
         protected readonly DbSet<TEntity> _dbSet;

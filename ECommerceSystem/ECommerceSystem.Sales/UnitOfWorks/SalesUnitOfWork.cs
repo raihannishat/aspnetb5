@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using ECommerceSystem.Data;
-using Microsoft.EntityFrameworkCore;
+﻿using ECommerceSystem.Data;
 using ECommerceSystem.Sales.Contexts;
 using ECommerceSystem.Sales.Repositories;
 

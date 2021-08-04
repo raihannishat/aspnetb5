@@ -1,12 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Autofac;
 using System.Linq;
-using Autofac;
-using System.Threading.Tasks;
-using ECommerceSystem.Sales.Services;
-using ECommerceSystem.Sales.BusinessObjects;
-using System.ComponentModel.DataAnnotations;
 using ECommerceSystem.Web.Models;
+using ECommerceSystem.Sales.Services;
 
 namespace ECommerceSystem.Web.Areas.Admin.Models
 {

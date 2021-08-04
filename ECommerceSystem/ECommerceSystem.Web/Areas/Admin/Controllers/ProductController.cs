@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using ECommerceSystem.Web.Areas.Admin.Models;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using ECommerceSystem.Web.Models;
 using Microsoft.Extensions.Logging;
+using ECommerceSystem.Web.Areas.Admin.Models;
 
 namespace ECommerceSystem.Web.Areas.Admin.Controllers
 {

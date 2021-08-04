@@ -1,22 +1,20 @@
+
+
+
+using System;
+using Autofac;
+using System.Reflection;
+using ECommerceSystem.Sales;
 using ECommerceSystem.Web.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Autofac;
-using System.Reflection;
-using Autofac.Extensions.DependencyInjection;
-using ECommerceSystem.Sales;
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
 using ECommerceSystem.Sales.Contexts;
+using Microsoft.Extensions.Configuration;
+using Autofac.Extensions.DependencyInjection;
+using Microsoft.Extensions.DependencyInjection;
 
 namespace ECommerceSystem.Web
 {
