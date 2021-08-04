@@ -1,10 +1,7 @@
-﻿using System;
-using Autofac;
-using System.Collections.Generic;
+﻿using Autofac;
 using System.Linq;
-using System.Threading.Tasks;
-using InventorySystem.Store.Services;
 using InventorySystem.Web.Models;
+using InventorySystem.Store.Services;
 
 namespace InventorySystem.Web.Areas.Admin.Models
 {
@@ -28,7 +25,7 @@ namespace InventorySystem.Web.Areas.Admin.Models
                 dataTablesModel.PageIndex,
                 dataTablesModel.PageSize,
                 dataTablesModel.SearchText,
-                dataTablesModel.GetSortText(new string[] { "Id", "ProducId", "Quantity" }));
+                dataTablesModel.GetSortText(new string[] { "Id", "ProductId", "Quantity" }));
 
             return new
             {

@@ -1,22 +1,19 @@
 using Autofac;
-using Autofac.Extensions.DependencyInjection;
+
+
+using System;
+using System.Reflection;
+using InventorySystem.Store;
 using InventorySystem.Web.Data;
+using InventorySystem.Store.Contexts;
+using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Identity;
-using Microsoft.AspNetCore.Identity.UI;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
+using Autofac.Extensions.DependencyInjection;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Reflection;
-using System.Threading.Tasks;
-using InventorySystem.Store;
-using InventorySystem.Store.Contexts;
 
 namespace InventorySystem.Web
 {

@@ -1,5 +1,5 @@
-﻿using InventorySystem.Store.Entities;
-using Microsoft.EntityFrameworkCore;
+﻿using Microsoft.EntityFrameworkCore;
+using InventorySystem.Store.Entities;
 
 namespace InventorySystem.Store.Contexts
 {

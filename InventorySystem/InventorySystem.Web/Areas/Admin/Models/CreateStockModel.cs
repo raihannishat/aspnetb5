@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using InventorySystem.Store.BusinessObjects;
+﻿using Autofac;
 using InventorySystem.Store.Services;
-using Autofac;
+using InventorySystem.Store.BusinessObjects;
 
 namespace InventorySystem.Web.Areas.Admin.Models
 {

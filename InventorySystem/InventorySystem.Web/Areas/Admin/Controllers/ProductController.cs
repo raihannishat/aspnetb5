@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using InventorySystem.Web.Areas.Admin.Models;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using InventorySystem.Web.Models;
 using Microsoft.Extensions.Logging;
+using InventorySystem.Web.Areas.Admin.Models;
 
 namespace InventorySystem.Web.Areas.Admin.Controllers
 {

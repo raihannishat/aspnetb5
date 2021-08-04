@@ -1,12 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using InventorySystem.Data;
+﻿using InventorySystem.Data;
 using InventorySystem.Store.Contexts;
 using InventorySystem.Store.Repositories;
-using Microsoft.EntityFrameworkCore;
 
 namespace InventorySystem.Store.UnitOfWorks
 {
