@@ -1,8 +1,8 @@
 ﻿using Autofac;
 using TicketBookingSystem.Booking.Contexts;
 using TicketBookingSystem.Booking.Services;
-using TicketBookingSystem.Booking.Repositories;
 using TicketBookingSystem.Booking.UnitOfWorks;
+using TicketBookingSystem.Booking.Repositories;
 
 namespace TicketBookingSystem.Booking
 {

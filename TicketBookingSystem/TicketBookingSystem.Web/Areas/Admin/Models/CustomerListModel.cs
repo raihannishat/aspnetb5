@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Autofac;
 using System.Linq;
-using System.Threading.Tasks;
-using Autofac;
-using TicketBookingSystem.Booking.Services;
 using TicketBookingSystem.Web.Models;
+using TicketBookingSystem.Booking.Services;
 
 namespace TicketBookingSystem.Web.Areas.Admin.Models
 {
@@ -28,7 +25,7 @@ namespace TicketBookingSystem.Web.Areas.Admin.Models
                 dataTablesModel.PageIndex,
                 dataTablesModel.PageSize,
                 dataTablesModel.SearchText,
-                dataTablesModel.GetSortText(new string[] { "Name", "Age", "Address", "ID" }));
+                dataTablesModel.GetSortText(new string[] { "Id", "Name", "Age", "Address" }));
 
             return new
             {
@@ -37,10 +34,10 @@ namespace TicketBookingSystem.Web.Areas.Admin.Models
                 data = (from record in data.records
                         select new string[]
                         {
+                            record.Id.ToString(),
                             record.Name,
                             record.Age.ToString(),
                             record.Address.ToString(),
-                            record.Id.ToString(),
                             record.Id.ToString()
                         }
                 ).ToArray()

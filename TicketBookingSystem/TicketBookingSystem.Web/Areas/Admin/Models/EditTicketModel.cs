@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.Linq;
-using System.Threading.Tasks;
-using Autofac;
-using TicketBookingSystem.Booking.BusinessObjects;
+﻿using Autofac;
 using TicketBookingSystem.Booking.Services;
+using TicketBookingSystem.Booking.BusinessObjects;
 
 namespace TicketBookingSystem.Web.Areas.Admin.Models
 {

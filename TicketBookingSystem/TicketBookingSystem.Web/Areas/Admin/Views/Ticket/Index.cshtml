@@ -34,7 +34,7 @@
                 "columnDefs": [
                     {
                         "orderable": false,
-                        "targets": 3,
+                        "targets": 4,
                         "render": function (data, type, row) {
                             return `<button type="submit" class="btn btn-info btn-sm" onclick="window.location.href='/admin/ticket/edit/${data}'" value='${data}'>
                                             <i class="fas fa-pencil-alt">
@@ -49,7 +49,6 @@
                         }
                     }
                 ]
-
             });
 
             $('#tickets').on('click', '.show-bs-modal', function (event) {
@@ -99,6 +98,7 @@
                         <table id="tickets" class="table table-bordered table-striped table-hover">
                             <thead>
                                 <tr>
+                                    <th>Ticket ID</th>
                                     <th>Customer ID</th>
                                     <th>Destination</th>
                                     <th>Ticket Fee</th>
@@ -107,6 +107,7 @@
                             </thead>
                             <tfoot>
                                 <tr>
+                                    <th>Ticket ID</th>
                                     <th>Customer ID</th>
                                     <th>Destination</th>
                                     <th>Ticket Fee</th>

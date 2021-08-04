@@ -1,6 +1,5 @@
-﻿using System;
+﻿using TicketBookingSystem.Data;
 using System.Collections.Generic;
-using TicketBookingSystem.Data;
 
 namespace TicketBookingSystem.Booking.Entities
 {

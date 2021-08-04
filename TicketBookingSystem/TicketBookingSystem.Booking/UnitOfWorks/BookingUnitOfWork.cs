@@ -1,9 +1,6 @@
-﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
+﻿using TicketBookingSystem.Data;
 using TicketBookingSystem.Booking.Contexts;
 using TicketBookingSystem.Booking.Repositories;
-using TicketBookingSystem.Data;
 
 namespace TicketBookingSystem.Booking.UnitOfWorks
 {

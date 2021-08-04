@@ -1,16 +1,12 @@
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Autofac.Extensions.DependencyInjection;
-using System.Net;
-using Serilog.Sinks.Email;
 using Serilog;
+using System.Net;
 using Serilog.Events;
+using Serilog.Sinks.Email;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.Extensions.Hosting;
+using Microsoft.Extensions.Configuration;
+using Autofac.Extensions.DependencyInjection;
 
 namespace TicketBookingSystem.Web
 {
