@@ -1,10 +1,8 @@
-﻿using AttendanceSystem.Presence.BusinessObjects;
-using AttendanceSystem.Presence.UnitOfWorks;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
+using AttendanceSystem.Presence.UnitOfWorks;
+using AttendanceSystem.Presence.BusinessObjects;
 
 namespace AttendanceSystem.Presence.Services
 {

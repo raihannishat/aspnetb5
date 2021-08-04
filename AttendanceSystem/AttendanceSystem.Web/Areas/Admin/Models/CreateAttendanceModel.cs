@@ -1,10 +1,7 @@
 ﻿using System;
 using Autofac;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AttendanceSystem.Presence.BusinessObjects;
 using AttendanceSystem.Presence.Services;
+using AttendanceSystem.Presence.BusinessObjects;
 
 namespace AttendanceSystem.Web.Areas.Admin.Models
 {

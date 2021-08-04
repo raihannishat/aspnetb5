@@ -1,10 +1,7 @@
-﻿using System;
-using Autofac;
-using System.Collections.Generic;
+﻿using Autofac;
 using System.Linq;
-using System.Threading.Tasks;
-using AttendanceSystem.Presence.Services;
 using AttendanceSystem.Web.Models;
+using AttendanceSystem.Presence.Services;
 
 namespace AttendanceSystem.Web.Areas.Admin.Models
 {
@@ -28,7 +25,7 @@ namespace AttendanceSystem.Web.Areas.Admin.Models
                 dataTablesModel.PageIndex,
                 dataTablesModel.PageSize,
                 dataTablesModel.SearchText,
-                dataTablesModel.GetSortText(new string[] { "StudentId", "Date", "Id" }));
+                dataTablesModel.GetSortText(new string[] { "Id", "StudentId", "Date" }));
 
             return new
             {
@@ -37,6 +34,7 @@ namespace AttendanceSystem.Web.Areas.Admin.Models
                 data = (from record in data.records
                     select new string[]
                     {
+                        record.Id.ToString(),
                         record.StudentId.ToString(),
                         record.Date.ToString(),
                         record.Id.ToString(),

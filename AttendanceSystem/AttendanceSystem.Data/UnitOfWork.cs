@@ -2,7 +2,7 @@
 
 namespace AttendanceSystem.Data
 {
-    public class UnitOfWork : IUnitOfWork
+    public abstract class UnitOfWork : IUnitOfWork
     {
         protected readonly DbContext _dbContext;
 

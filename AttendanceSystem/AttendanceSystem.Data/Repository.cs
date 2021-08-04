@@ -7,7 +7,8 @@ using System.Linq.Expressions;
 
 namespace AttendanceSystem.Data
 {
-    public abstract class Repository<TEntity, TKey> : IRepository<TEntity, TKey> where TEntity : class, IEntity<TKey>
+    public abstract class Repository<TEntity, TKey> :
+        IRepository<TEntity, TKey> where TEntity : class, IEntity<TKey>
     {
         protected readonly DbContext _dbContext;
         protected readonly DbSet<TEntity> _dbSet;

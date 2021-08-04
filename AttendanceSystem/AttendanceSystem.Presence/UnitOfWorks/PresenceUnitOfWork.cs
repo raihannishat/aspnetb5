@@ -1,11 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using AttendanceSystem.Data;
-using AttendanceSystem.Presence.Repositories;
+﻿using AttendanceSystem.Data;
 using AttendanceSystem.Presence.Contexts;
+using AttendanceSystem.Presence.Repositories;
 
 namespace AttendanceSystem.Presence.UnitOfWorks
 {

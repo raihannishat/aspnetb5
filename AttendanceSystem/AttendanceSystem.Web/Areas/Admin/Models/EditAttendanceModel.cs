@@ -1,10 +1,7 @@
 ﻿using System;
 using Autofac;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AttendanceSystem.Presence.BusinessObjects;
 using AttendanceSystem.Presence.Services;
+using AttendanceSystem.Presence.BusinessObjects;
 
 namespace AttendanceSystem.Web.Areas.Admin.Models
 {
@@ -19,6 +16,11 @@ namespace AttendanceSystem.Web.Areas.Admin.Models
         public EditAttendanceModel()
         {
             _attendanceService = Startup.AutofacContainer.Resolve<IAttendanceService>();
+        }
+
+        public EditAttendanceModel(IAttendanceService attendanceService)
+        {
+            _attendanceService = attendanceService;
         }
 
         public void LoadModelData(int id)

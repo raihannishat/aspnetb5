@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using AttendanceSystem.Web.Areas.Admin.Models;
+﻿using System;
+using Microsoft.AspNetCore.Mvc;
 using AttendanceSystem.Web.Models;
+using Microsoft.Extensions.Logging;
+using AttendanceSystem.Web.Areas.Admin.Models;
 
 namespace AttendanceSystem.Web.Areas.Admin.Controllers
 {

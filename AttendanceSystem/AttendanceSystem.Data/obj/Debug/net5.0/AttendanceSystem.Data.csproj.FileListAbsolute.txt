@@ -2,6 +2,7 @@ D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\bin\Debug\net5.0\
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\bin\Debug\net5.0\AttendanceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\bin\Debug\net5.0\ref\AttendanceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\bin\Debug\net5.0\AttendanceSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.csproj.AssemblyReference.cache
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.AssemblyInfoInputs.cache
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.AssemblyInfo.cs
@@ -9,4 +10,3 @@ D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\ref\AttendanceSystem.Data.dll
 D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.pdb
-D:\Code\GitHub\aspnetb5\AttendanceSystem\AttendanceSystem.Data\obj\Debug\net5.0\AttendanceSystem.Data.csproj.AssemblyReference.cache

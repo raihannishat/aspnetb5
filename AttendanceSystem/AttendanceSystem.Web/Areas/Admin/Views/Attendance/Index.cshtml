@@ -34,7 +34,7 @@
                 "columnDefs": [
                     {
                         "orderable": false,
-                        "targets": 2,
+                        "targets": 3,
                         "render": function (data, type, row) {
                             return `<button type="submit" class="btn btn-info btn-sm" onclick="window.location.href='/admin/attendance/edit/${data}'" value='${data}'>
                                             <i class="fas fa-pencil-alt">
@@ -99,16 +99,18 @@
                         <table id="attendances" class="table table-bordered table-striped table-hover">
                             <thead>
                                 <tr>
-                                    <th style="width:100px">Student ID</th>
-                                    <th style="width:200px">Date</th>
-                                    <th style="width:100px">Action</th>
+                                    <th>Attendance ID</th>
+                                    <th>Student ID</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
                                 </tr>
                             </thead>
                             <tfoot>
                                 <tr>
+                                    <th>Attendance ID</th>
                                     <th>Student ID</th>
-                                    <th style="width:130px">Date</th>
-                                    <th style="width:140px">Action</th>
+                                    <th>Date</th>
+                                    <th>Action</th>
                                 </tr>
                             </tfoot>
                         </table>
