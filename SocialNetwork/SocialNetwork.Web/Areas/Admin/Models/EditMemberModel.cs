@@ -22,6 +22,11 @@ namespace SocialNetwork.Web.Areas.Admin.Models
             _memberService = Startup.AutofacContainer.Resolve<IMemberService>();
         }
 
+        public EditMemberModel(IMemberService memberService)
+        {
+            _memberService = memberService;
+        }
+
         public void LoadModelData(int id)
         {
             var member = _memberService.GetMember(id);

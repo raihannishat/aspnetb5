@@ -19,6 +19,11 @@ namespace SocialNetwork.Web.Areas.Admin.Models
             _photoService = Startup.AutofacContainer.Resolve<IPhotoService>();
         }
 
+        public EditPhotoModel(IPhotoService photoService)
+        {
+            _photoService = photoService;
+        }
+
         public void LoadModelData(int id)
         {
             var photo = _photoService.GetPhoto(id);
