@@ -1,10 +1,8 @@
-﻿using SocialNetwork.Profile.BusinessObjects;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using System.Collections.Generic;
 using SocialNetwork.Profile.UnitOfWorks;
+using SocialNetwork.Profile.BusinessObjects;
 
 namespace SocialNetwork.Profile.Services
 {

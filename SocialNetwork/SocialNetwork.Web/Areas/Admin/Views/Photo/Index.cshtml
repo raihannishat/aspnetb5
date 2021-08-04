@@ -34,7 +34,7 @@
                 "columnDefs": [
                     {
                         "orderable": false,
-                        "targets": 2,
+                        "targets": 3,
                         "render": function (data, type, row) {
                             return `<button type="submit" class="btn btn-info btn-sm" onclick="window.location.href='/admin/photo/edit/${data}'" value='${data}'>
                                             <i class="fas fa-pencil-alt">
@@ -99,6 +99,7 @@
                         <table id="photos" class="table table-bordered table-striped table-hover">
                             <thead>
                                 <tr>
+                                    <th>Photo ID</th>
                                     <th>Member ID</th>
                                     <th>Photo File Name</th>
                                     <th style="width:132px">Action</th>
@@ -106,6 +107,7 @@
                             </thead>
                             <tfoot>
                                 <tr>
+                                    <th>Photo ID</th>
                                     <th>Member ID</th>
                                     <th>Photo File Name</th>
                                     <th>Action</th>

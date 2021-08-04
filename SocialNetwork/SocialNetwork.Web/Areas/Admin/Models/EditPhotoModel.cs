@@ -1,10 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Autofac;
-using SocialNetwork.Profile.BusinessObjects;
+﻿using Autofac;
 using SocialNetwork.Profile.Services;
+using SocialNetwork.Profile.BusinessObjects;
 using System.ComponentModel.DataAnnotations;
 
 namespace SocialNetwork.Web.Areas.Admin.Models

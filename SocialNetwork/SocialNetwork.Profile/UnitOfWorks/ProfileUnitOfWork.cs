@@ -1,6 +1,6 @@
-﻿using SocialNetwork.Profile.Repositories;
-using SocialNetwork.Data;
+﻿using SocialNetwork.Data;
 using SocialNetwork.Profile.Contexts;
+using SocialNetwork.Profile.Repositories;
 
 namespace SocialNetwork.Profile.UnitOfWorks
 {

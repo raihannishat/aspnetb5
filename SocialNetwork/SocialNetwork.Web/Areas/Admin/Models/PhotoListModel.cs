@@ -1,10 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using Autofac;
 using System.Linq;
-using System.Threading.Tasks;
-using Autofac;
-using SocialNetwork.Profile.Services;
 using SocialNetwork.Web.Models;
+using SocialNetwork.Profile.Services;
 
 namespace SocialNetwork.Web.Areas.Admin.Models
 {
@@ -28,7 +25,7 @@ namespace SocialNetwork.Web.Areas.Admin.Models
                 dataTablesModel.PageIndex,
                 dataTablesModel.PageSize,
                 dataTablesModel.SearchText,
-                dataTablesModel.GetSortText(new string[] { "MemberId", "PhotoFileName" }));
+                dataTablesModel.GetSortText(new string[] { "Id", "MemberId", "PhotoFileName" }));
 
             return new
             {
@@ -37,6 +34,7 @@ namespace SocialNetwork.Web.Areas.Admin.Models
                 data = (from record in data.records
                         select new string[]
                         {
+                            record.Id.ToString(),
                             record.MemberId.ToString(),
                             record.PhotoFileName,
                             record.Id.ToString()

@@ -1,11 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using SocialNetwork.Web.Areas.Admin.Models;
+﻿using System;
 using SocialNetwork.Web.Models;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging;
+using SocialNetwork.Web.Areas.Admin.Models;
 
 namespace SocialNetwork.Web.Areas.Admin.Controllers
 {
