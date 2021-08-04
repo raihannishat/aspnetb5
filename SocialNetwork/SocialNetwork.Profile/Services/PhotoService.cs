@@ -70,7 +70,7 @@ namespace SocialNetwork.Profile.Services
         {
             var photoData = _profileUnitOfWork.PhotoRepository.GetDynamic(
                 string.IsNullOrWhiteSpace(searchText) ? null : x => x.MemberId.ToString().Contains(searchText),
-                sortText, string.Empty, pageIndex, pageSize); ;
+                sortText, string.Empty, pageIndex, pageSize);
 
             var result = (from photo in photoData.data
                           select new Photo
