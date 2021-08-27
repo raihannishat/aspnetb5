@@ -1,0 +1,12 @@
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\bin\Debug\net5.0\LibraryManagementSystem.Data.deps.json
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\bin\Debug\net5.0\LibraryManagementSystem.Data.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\bin\Debug\net5.0\ref\LibraryManagementSystem.Data.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\bin\Debug\net5.0\LibraryManagementSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\ref\LibraryManagementSystem.Data.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Data\obj\Debug\net5.0\LibraryManagementSystem.Data.csproj.AssemblyReference.cache

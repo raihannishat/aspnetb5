@@ -1,0 +1,15 @@
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\LibraryManagementSystem.Borrow.deps.json
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\LibraryManagementSystem.Borrow.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\ref\LibraryManagementSystem.Borrow.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\LibraryManagementSystem.Borrow.pdb
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.GeneratedMSBuildEditorConfig.editorconfig
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.AssemblyInfoInputs.cache
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.AssemblyInfo.cs
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.csproj.CoreCompileInputs.cache
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\ref\LibraryManagementSystem.Borrow.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.pdb
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\LibraryManagementSystem.Data.dll
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\bin\Debug\net5.0\LibraryManagementSystem.Data.pdb
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.csproj.CopyComplete
+D:\Code\GitHub\aspnetb5\LibraryManagementSystem\LibraryManagementSystem.Borrow\obj\Debug\net5.0\LibraryManagementSystem.Borrow.csproj.AssemblyReference.cache
