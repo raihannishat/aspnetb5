@@ -60,6 +60,7 @@ namespace StockData.Worker.Models
                     if (CompanyService.GetByTradeCode(item.TradingCode) == null)
                     {
                         CompanyService.CreateCompany(company);
+			StockPriceService.CreateStockPrice(stockPrice);
                     }
                     else
                     {
