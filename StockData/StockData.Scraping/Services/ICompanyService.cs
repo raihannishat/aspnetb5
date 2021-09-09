@@ -6,6 +6,5 @@ namespace StockData.Scraping.Services
     {
         void CreateCompany(Company company);
         Company GetByTradeCode(string tradeCode);
-        bool IsTradeCodeAlreadyExist(string tradeCode);
     }
 }

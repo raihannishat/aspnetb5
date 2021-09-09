@@ -34,11 +34,5 @@ namespace StockData.Scraping.Services
                 .Get(x => x.TradeCode == tradeCode, string.Empty)
                 .FirstOrDefault());
         }
-
-        public bool IsTradeCodeAlreadyExist(string tradeCode)
-        {
-            return _scrapingUnitOfWork.CompanyRepository
-                .GetCount(x => x.TradeCode == tradeCode) > 0;
-        }
     }
 }

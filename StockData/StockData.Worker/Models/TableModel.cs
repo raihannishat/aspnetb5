@@ -31,7 +31,7 @@ namespace StockData.Worker.Models
 
         public void Save()
         {
-            if (_dataModel.CurrentStatus.Equals("Closed"))
+            if (_dataModel.CurrentStatus.Equals("Open"))
             {
                 foreach (var item in _dataModel.GetAllData())
                 {
@@ -55,8 +55,14 @@ namespace StockData.Worker.Models
                         Volume = item.Volume,
                     };
 
-                    CompanyService.CreateCompany(company);
-                    StockPriceService.CreateStockPrice(stockPrice);
+                    if (CompanyService.GetByTradeCode(item.TradingCode) == null)
+                    {
+                        CompanyService.CreateCompany(company);
+                    }
+                    else
+                    {
+                        StockPriceService.CreateStockPrice(stockPrice);
+                    }
                 }
             }
         }
