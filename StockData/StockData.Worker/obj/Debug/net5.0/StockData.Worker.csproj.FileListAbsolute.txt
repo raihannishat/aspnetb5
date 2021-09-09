@@ -77,7 +77,6 @@ C:\Users\Raihan Nishat\source\repos\StockData\StockData.Worker\obj\Debug\net5.0\
 C:\Users\Raihan Nishat\source\repos\StockData\StockData.Worker\obj\Debug\net5.0\ref\StockData.Worker.dll
 C:\Users\Raihan Nishat\source\repos\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.pdb
 C:\Users\Raihan Nishat\source\repos\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.genruntimeconfig.cache
-D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\ref\StockData.Worker.dll
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\bin\Debug\net5.0\appsettings.Development.json
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\bin\Debug\net5.0\appsettings.json
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\bin\Debug\net5.0\StockData.Worker.exe
@@ -154,5 +153,6 @@ D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Wo
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.csproj.CoreCompileInputs.cache
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.csproj.CopyComplete
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.dll
+D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\ref\StockData.Worker.dll
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.pdb
 D:\Code\GitHub\aspnetb5\StockData\StockData.Worker\obj\Debug\net5.0\StockData.Worker.genruntimeconfig.cache

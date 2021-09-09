@@ -22,11 +22,13 @@ namespace StockData.Worker.Models
             _dataModel = new DataModel();
         }
 
-        public TableModel(ICompanyService companyService, IStockPriceService stockPriceService)
+        public TableModel(ICompanyService companyService, 
+            IStockPriceService stockPriceService,
+            DataModel dataModel)
         {
             CompanyService = companyService;
             StockPriceService = stockPriceService;
-            _dataModel = new DataModel();
+            _dataModel = dataModel;
         }
 
         public void Save()
