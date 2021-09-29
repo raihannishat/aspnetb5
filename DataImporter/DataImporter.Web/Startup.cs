@@ -6,6 +6,7 @@ using DataImporter.Membership;
 using DataImporter.Membership.Contexts;
 using DataImporter.Membership.Entities;
 using DataImporter.Membership.Services;
+using DataImporter.Web.Models;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -15,6 +16,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
+using NETCore.MailKit.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -118,6 +120,11 @@ namespace DataImporter.Web
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+
+            services.AddTransient<GoogleReCAPTCHA>();
+            services.AddTransient<IEmailService, EmailService>();
+
+            services.Configure<ReCAPTCHASettings>(Configuration.GetSection("GooglereCAPTCHA"));
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllersWithViews();
