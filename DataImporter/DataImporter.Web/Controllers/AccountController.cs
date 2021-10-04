@@ -14,6 +14,7 @@ using System.Linq;
 using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using DataImporter.Web.Models.GoogleReCAPTCHA;
 
 namespace DataImporter.Web.Controllers
 {
@@ -24,6 +25,7 @@ namespace DataImporter.Web.Controllers
         private readonly ILogger<AccountController> _logger;
         private readonly RoleManager<Role> _roleManager;
         private readonly IEmailSender _emailSender;
+        private readonly GoogleReCaptchaService _googleReCaptchaService;
         //private readonly IEmailService _emailService;
 
         public AccountController(
@@ -31,13 +33,15 @@ namespace DataImporter.Web.Controllers
             SignInManager<ApplicationUser> signInManager,
             RoleManager<Role> roleManager,
             ILogger<AccountController> logger,
-            IEmailSender emailSender)
+            IEmailSender emailSender,
+            GoogleReCaptchaService googleReCaptchaService)
         {
             _userManager = userManager;
             _signInManager = signInManager;
             _roleManager = roleManager;
             _logger = logger;
             _emailSender = emailSender;
+            _googleReCaptchaService = googleReCaptchaService;
             //_emailService = emailService;
         }
 
@@ -56,6 +60,13 @@ namespace DataImporter.Web.Controllers
         {
             model.ReturnUrl ??= Url.Content("~/");
             model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
+
+            var reCaptcha = _googleReCaptchaService.VerifyReCaptcha(model.Token);
+
+            if (!reCaptcha.Result.Success && reCaptcha.Result.Score <= 5.0)
+            {
+                ModelState.AddModelError(string.Empty, "You are not a Human.");
+            }
 
             if (ModelState.IsValid)
             {
@@ -131,6 +142,13 @@ namespace DataImporter.Web.Controllers
 
             model.ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
 
+            var reCaptcha = _googleReCaptchaService.VerifyReCaptcha(model.Token);
+
+            if (!reCaptcha.Result.Success && reCaptcha.Result.Score <= 5.0)
+            {
+                ModelState.AddModelError(string.Empty, "You are not a Human.");
+            }
+
             if (ModelState.IsValid)
             {
                 // This doesn't count login failures towards account lockout
@@ -162,17 +180,17 @@ namespace DataImporter.Web.Controllers
         }
         
         [HttpPost]
-        public async Task<IActionResult> Logout(string returnUrl = null)
+        public async Task<IActionResult> Logout(LoginModel model)
         {
             await _signInManager.SignOutAsync();
             _logger.LogInformation("User logged out.");
-            if (returnUrl != null)
+            if (model.ReturnUrl != null)
             {
-                return LocalRedirect(returnUrl);
+                return LocalRedirect(model.ReturnUrl);
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("Login", "Account");
             }
         }
     }
