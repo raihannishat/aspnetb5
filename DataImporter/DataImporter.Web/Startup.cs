@@ -6,6 +6,7 @@ using DataImporter.Membership;
 using DataImporter.Membership.Contexts;
 using DataImporter.Membership.Entities;
 using DataImporter.Membership.Services;
+using DataImporter.Web.Models.GoogleReCAPTCHA;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -50,6 +51,8 @@ namespace DataImporter.Web
 
             container.RegisterModule(new MembershipModule(connection.connectionString,
                 connection.migrationAssembly));
+
+            container.RegisterModule(new WebModule());
         }
 
         private (string connectionString, string migrationAssembly) GetConnectionStringAndAssembly()
@@ -118,6 +121,9 @@ namespace DataImporter.Web
                 options.Cookie.HttpOnly = true;
                 options.Cookie.IsEssential = true;
             });
+
+            services.AddTransient<GoogleReCaptchaService>();
+            services.Configure<ReCAPTCHASettings>(Configuration.GetSection("GooglereCAPTCHA"));
 
             services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
             services.AddControllersWithViews();
