@@ -121,8 +121,8 @@ namespace DataImporter.Web.Data.Migrations
                     b.HasData(
                         new
                         {
-                            Id = new Guid("76d2dc9e-0218-427f-9687-e7f40da8fb77"),
-                            ConcurrencyStamp = "bc2a3242-425a-4d3b-a1a6-cec640bec714",
+                            Id = new Guid("324daef5-5d29-49b5-b07b-b65efc279fe3"),
+                            ConcurrencyStamp = "f98d19c1-546b-4025-81f5-577c983aeaba",
                             Name = "User",
                             NormalizedName = "USER"
                         });
