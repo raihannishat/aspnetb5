@@ -12,9 +12,10 @@ namespace DataImporter.Library.Entities
     {
         public int Id { get; set; }
         public string Name { get; set; }
-        public Guid UserId { get; set; }
-        public ApplicationUser User { get; set; }
-        public List<ExcelFile> ExcelFiles { get; set; }
-        public List<History> Histories { get; set; }
+        public Guid ApplicationUserId { get; set; }
+        public ApplicationUser ApplicationUser { get; set; }
+        public List<ImportExcelFile> ImportExcelFiles { get; set; }
+        public List<ExportExcelFile> ExportExcelFiles { get; set; }
+        public List<ExcelRow> ExcelRows { get; set; }
     }
 }
