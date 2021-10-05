@@ -13,9 +13,11 @@ namespace DataImporter.Library
     {
         public LibraryProfile()
         {
-            CreateMap<Entity.Content, BusinessObject.Content>().ReverseMap();
-            CreateMap<Entity.ExcelFile, BusinessObject.ExcelFile>().ReverseMap();
+            CreateMap<Entity.ExcelColumn, BusinessObject.ExcelColumn>().ReverseMap();
+            CreateMap<Entity.ExcelRow, BusinessObject.ExcelRow>().ReverseMap();
             CreateMap<Entity.Group, BusinessObject.Group>().ReverseMap();
+            CreateMap<Entity.ExportExcelFile, BusinessObject.ExportExcelFile>().ReverseMap();
+            CreateMap<Entity.ImportExcelFile, BusinessObject.ImportExcelFile>().ReverseMap();
         }
     }
 }
