@@ -14,8 +14,7 @@ namespace DataImporter.Library.Services
         private readonly IDataImporterUnitOfWork _dataImporterUnitOfWork;
         private readonly IMapper _mapper;
 
-        public GroupService(IDataImporterUnitOfWork dataImporterUnitOfWork,
-            IMapper mapper)
+        public GroupService(IDataImporterUnitOfWork dataImporterUnitOfWork, IMapper mapper)
         {
             _dataImporterUnitOfWork = dataImporterUnitOfWork;
             _mapper = mapper;
