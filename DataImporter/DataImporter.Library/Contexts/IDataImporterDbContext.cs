@@ -5,8 +5,10 @@ namespace DataImporter.Library.Contexts
 {
     public interface IDataImporterDbContext
     {
-        DbSet<Content> Contents { get; set; }
-        DbSet<ExcelFile> ExcelFiles { get; set; }
         DbSet<Group> Groups { get; set; }
+        DbSet<ImportExcelFile> ImportExcelFiles { get; set; }
+        DbSet<ExportExcelFile> ExportExcelFiles { get; set; }
+        DbSet<ExcelRow> ExcelRows { get; set; }
+        DbSet<ExcelColumn> ExcelColumns { get; set; }
     }
 }
