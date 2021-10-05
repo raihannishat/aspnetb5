@@ -12,18 +12,24 @@ namespace DataImporter.Library.UnitOfWorks
     public class DataImporterUnitOfWork : UnitOfWork, IDataImporterUnitOfWork
     {
         public DataImporterUnitOfWork(IDataImporterDbContext dbContext,
-            IContentRepository contentRepository,
-            IExcelFileRepository excelFileRepository,
+            IExcelRowRepository excelRowRepository,
+            IExcelColumnRepository excelColumnRepository,
+            IImportExcelFileRepository importExcelFileRepository,
+            IExportExcelFileRepository exportExcelFileRepository,
             IGroupRepository groupRepository)
             : base((Context)dbContext)
         {
-            ContentRepository = contentRepository;
-            ExcelFileRepository = excelFileRepository;
+            ExcelColumnRepository = excelColumnRepository;
+            ExcelRowRepository = excelRowRepository;
+            ExportExcelFileRepository = exportExcelFileRepository;
+            ImportExcelFileRepository = importExcelFileRepository;
             GroupRepository = groupRepository;
         }
 
-        public IContentRepository ContentRepository { get; private set; }
-        public IExcelFileRepository ExcelFileRepository { get; private set; }
+        public IExcelColumnRepository ExcelColumnRepository { get; private set; }
+        public IExcelRowRepository  ExcelRowRepository { get; private set; }
+        public IExportExcelFileRepository ExportExcelFileRepository { get; private set; }
+        public IImportExcelFileRepository ImportExcelFileRepository { get; private set; }
         public IGroupRepository GroupRepository { get; private set; }
     }
 }

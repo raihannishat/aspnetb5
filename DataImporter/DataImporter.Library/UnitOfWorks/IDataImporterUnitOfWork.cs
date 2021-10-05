@@ -10,8 +10,10 @@ namespace DataImporter.Library.UnitOfWorks
 {
     public interface IDataImporterUnitOfWork : IUnitOfWork
     {
-        IContentRepository ContentRepository { get; }
-        IExcelFileRepository ExcelFileRepository { get; }
+        IExcelColumnRepository ExcelColumnRepository { get; }
+        IExcelRowRepository ExcelRowRepository { get; }
+        IExportExcelFileRepository ExportExcelFileRepository { get; }
+        IImportExcelFileRepository ImportExcelFileRepository { get; }
         IGroupRepository GroupRepository { get; }
     }
 }
