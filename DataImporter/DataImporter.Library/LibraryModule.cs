@@ -34,22 +34,34 @@ namespace DataImporter.Library
                 .WithParameter("migrationAssembly", _migrationAssembly)
                 .InstancePerLifetimeScope();
 
-            builder.RegisterType<ContentRepository>().As<IContentRepository>()
-                .InstancePerLifetimeScope();
-
-            builder.RegisterType<ExcelFileRepository>().As<IExcelFileRepository>()
-                .InstancePerLifetimeScope();
-
             builder.RegisterType<GroupRepository>().As<IGroupRepository>()
                 .InstancePerLifetimeScope();
 
-            builder.RegisterType<ContentService>().As<IContentService>()
-                .InstancePerLifetimeScope();
-
-            builder.RegisterType<ExcelFileService>().As<IExcelFileService>()
-                .InstancePerLifetimeScope();
-
             builder.RegisterType<GroupService>().As<IGroupService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExcelRowRepository>().As<IExcelRowRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExcelRowService>().As<IExcelRowService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExcelColumnRepository>().As<IExcelColumnRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExcelColumnService>().As<IExcelColumnService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ImportExcelFileRepository>().As<IImportExcelFileRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ImportExcelFileService>().As<IImportExcelFileService>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExportExcelFileRepository>().As<IExportExcelFileRepository>()
+                .InstancePerLifetimeScope();
+
+            builder.RegisterType<ExportExcelFileService>().As<IExportExcelFileService>()
                 .InstancePerLifetimeScope();
 
             builder.RegisterType<DataImporterUnitOfWork>().As<IDataImporterUnitOfWork>()
