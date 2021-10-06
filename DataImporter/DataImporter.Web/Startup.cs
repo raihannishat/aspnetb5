@@ -1,5 +1,6 @@
 using Autofac;
 using Autofac.Extensions.DependencyInjection;
+using DataImporter.Core;
 using DataImporter.Library;
 using DataImporter.Library.Contexts;
 using DataImporter.Membership;
@@ -40,7 +41,7 @@ namespace DataImporter.Web
 
         public IConfiguration Configuration { get; }
         public IWebHostEnvironment WebHostEnvironment { get; set; }
-        public ILifetimeScope AutofacContainer { get; set; }
+        public static ILifetimeScope AutofacContainer { get; set; }
 
         public void ConfigureContainer(ContainerBuilder container)
         {
@@ -53,6 +54,7 @@ namespace DataImporter.Web
                 connection.migrationAssembly));
 
             container.RegisterModule(new WebModule());
+            container.RegisterModule(new CoreModule());
         }
 
         private (string connectionString, string migrationAssembly) GetConnectionStringAndAssembly()
