@@ -11,7 +11,7 @@ namespace DataImporter.Library.Services
     {
         void CreateGroup(Group group);
         (IList<Group> records, int total, int totalDisplay)
-            GetGroups(int pageIndex, int pageSize, string searchText, string sortText);
+            GetGroups(int pageIndex, int pageSize, string searchText, string sortText, Guid userId);
         Group GetGroup(int id);
         void UpdateGroup(Group group);
         void DeleteGroup(int groupId);

@@ -11,7 +11,7 @@ namespace DataImporter.Library.Services
     {
         void CreateImportExcelFile(ImportExcelFile importExcelFile);
         (IList<ImportExcelFile> records, int total, int totalDisplay) 
-            GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText);
+            GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText, Guid userId);
         ImportExcelFile GetImportExcelFile(int id);
         IList<Entities.ImportExcelFile> GetAllImportExcelFile();
         void UpdateImportExcelFile(ImportExcelFile importExcelFile);

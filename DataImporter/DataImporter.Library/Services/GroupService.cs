@@ -50,11 +50,11 @@ namespace DataImporter.Library.Services
         }
 
         public (IList<Group> records, int total, int totalDisplay)
-            GetGroups(int pageIndex, int pageSize, string searchText, string sortText)
+            GetGroups(int pageIndex, int pageSize, string searchText, string sortText, Guid userId)
         {
-            var teamData = _dataImporterUnitOfWork
-                .GroupRepository
-                .GetDynamic(string.IsNullOrWhiteSpace(searchText) ? null : 
+            var teamData = _dataImporterUnitOfWork.GroupRepository
+                .GetDynamic(string.IsNullOrWhiteSpace(searchText) ? 
+                u => u.ApplicationUserId == userId : 
                 x => x.Name.Contains(searchText), sortText, string.Empty, pageIndex, pageSize);
 
             var result = (from item in teamData.data

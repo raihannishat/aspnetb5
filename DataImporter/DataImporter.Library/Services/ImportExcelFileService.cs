@@ -55,11 +55,11 @@ namespace DataImporter.Library.Services
         }
 
         public (IList<ImportExcelFile> records, int total, int totalDisplay) 
-            GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText)
+            GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText, Guid userId)
         {
-            var teamData = _dataImporterUnitOfWork
-                .ImportExcelFileRepository
-                .GetDynamic(string.IsNullOrWhiteSpace(searchText) ? null :
+            var teamData = _dataImporterUnitOfWork.ImportExcelFileRepository
+                .GetDynamic(string.IsNullOrWhiteSpace(searchText) ? 
+                x => x.Group.ApplicationUserId == userId :
                 x => x.ImportStatus.Contains(searchText), sortText, string.Empty, pageIndex, pageSize);
 
             var result = (from importFile in teamData.data
