@@ -37,6 +37,10 @@ namespace DataImporter.Worker.Model
                     _dataImporterUnitOfWork.ExcelRowRepository.Add(rows);
                     _dataImporterUnitOfWork.Save();
                 }
+                else
+                {
+                    continue;
+                }
 
                 SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
                 var workbook = ExcelFile.Load(filePath);
