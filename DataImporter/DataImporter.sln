@@ -13,7 +13,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataImporter.Library", "Dat
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataImporter.Membership", "DataImporter.Membership\DataImporter.Membership.csproj", "{AFE97FBF-9B44-41F9-935B-F61B1E425B63}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataImporter.Worker", "DataImporter.Worker\DataImporter.Worker.csproj", "{AD25A11D-9474-4458-832D-2928C605A2B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataImporter.Worker", "DataImporter.Worker\DataImporter.Worker.csproj", "{AD25A11D-9474-4458-832D-2928C605A2B4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
