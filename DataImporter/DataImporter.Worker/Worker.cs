@@ -25,12 +25,10 @@ namespace DataImporter.Worker
         {
             while (!stoppingToken.IsCancellationRequested)
             {
-                //_logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
-
+                _logger.LogInformation("Worker running at: {time}", DateTimeOffset.Now);
                 var importer = new WorkerModel();
                 importer.GetAllStatus();
-
-                await Task.Delay(1000, stoppingToken);
+                await Task.Delay(15000, stoppingToken);
             }
         }
     }
