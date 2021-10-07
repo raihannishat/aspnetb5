@@ -38,6 +38,11 @@ namespace DataImporter.Library.Services
             _dataImporterUnitOfWork.Save();
         }
 
+        public IList<Entities.ImportExcelFile> GetAllImportExcelFile()
+        {
+            return _dataImporterUnitOfWork.ImportExcelFileRepository.GetAll();
+        }
+
         public ImportExcelFile GetImportExcelFile(int id)
         {
             var importExcelFile = _dataImporterUnitOfWork

@@ -13,6 +13,7 @@ namespace DataImporter.Library.Services
         (IList<ImportExcelFile> records, int total, int totalDisplay) 
             GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText);
         ImportExcelFile GetImportExcelFile(int id);
+        IList<Entities.ImportExcelFile> GetAllImportExcelFile();
         void UpdateImportExcelFile(ImportExcelFile importExcelFile);
         void DeleteImportExcelFile(int importExcelFileId);
     }
