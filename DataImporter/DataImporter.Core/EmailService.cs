@@ -1,5 +1,6 @@
 ﻿using MailKit.Net.Smtp;
 using MimeKit;
+using MimeKit.Text;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -34,7 +35,7 @@ namespace DataImporter.Core
             message.From.Add(new MailboxAddress(_from, _from));
             message.To.Add(new MailboxAddress(receiver, receiver));
             message.Subject = subject;
-            message.Body = new TextPart("plain")
+            message.Body = new TextPart(TextFormat.Html)
             {
                 Text = body,
             };

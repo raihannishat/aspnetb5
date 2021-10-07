@@ -23,6 +23,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\DataImporter.Core\DataImporter.Core.csproj" />
     <ProjectReference Include="..\DataImporter.Library\DataImporter.Library.csproj" />
   </ItemGroup>
 </Project>

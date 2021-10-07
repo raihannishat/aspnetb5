@@ -7,7 +7,6 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.WebUtilities;
 using Microsoft.Extensions.Logging;
-using NETCore.MailKit.Core;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -15,6 +14,7 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
 using DataImporter.Web.Models.GoogleReCAPTCHA;
+using DataImporter.Core;
 
 namespace DataImporter.Web.Controllers
 {
@@ -26,7 +26,6 @@ namespace DataImporter.Web.Controllers
         private readonly RoleManager<Role> _roleManager;
         private readonly IEmailSender _emailSender;
         private readonly GoogleReCaptchaService _googleReCaptchaService;
-        //private readonly IEmailService _emailService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
@@ -42,7 +41,6 @@ namespace DataImporter.Web.Controllers
             _logger = logger;
             _emailSender = emailSender;
             _googleReCaptchaService = googleReCaptchaService;
-            //_emailService = emailService;
         }
 
         [HttpGet]
@@ -89,7 +87,7 @@ namespace DataImporter.Web.Controllers
                     //await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
                     //    $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
-                    //_emailService.Send(model.Email, "Confirm your email",
+                    //_emailService.SendEmail(model.Email, "Confirm your email",
                     //   $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)

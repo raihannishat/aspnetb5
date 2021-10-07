@@ -14,6 +14,9 @@ namespace DataImporter.Core
             builder.RegisterType<DateTimeUtility>().As<IDateTimeUtility>()
                 .InstancePerLifetimeScope();
 
+            builder.RegisterType<EmailService>().As<IEmailService>()
+                .InstancePerLifetimeScope();
+
             base.Load(builder);
         }
     }
