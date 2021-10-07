@@ -1,0 +1,23 @@
+﻿@model CreateImportModel
+@{
+    ViewData["Title"] = "UploadExcelFile";
+}
+
+<h1>Upload Excel File</h1>
+
+<form method="post" enctype="multipart/form-data" asp-controller="Import" asp-action="UploadExcelFile">
+    <input type="hidden" asp-for="GroupId" value="@Model.GroupId">
+    <div class="form-group">
+        <div class="col-md-10">
+            <p>Upload File</p>
+            <input type="file" name="file" />
+        </div>
+    </div>
+    <div class="form-group">
+        <input type="submit" value="Upload file" />
+    </div>
+    <div class="form-group">
+        <span>@TempData["msg"]</span>
+    </div>
+</form>
+
