@@ -1,0 +1,19 @@
+version: "3"
+services:
+    web:
+        build:
+          context: .
+          dockerfile: DataImporter.Web/Dockerfile
+        image: DataImporterweb
+        container_name: web
+        restart: unless-stopped
+        tty: true
+        env_file: 
+            - web.env
+        ports:
+            - "8000:80"
+        volumes:
+            - DataImporterweb-data:/app/Logs
+volumes:
+     DataImporterweb-data: 
+        external: true
