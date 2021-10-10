@@ -12,10 +12,16 @@ namespace DataImporter.Core
         protected override void Load(ContainerBuilder builder)
         {
             builder.RegisterType<DateTimeUtility>().As<IDateTimeUtility>()
-                .InstancePerLifetimeScope();
+		.InstancePerLifetimeScope();
 
             builder.RegisterType<EmailService>().As<IEmailService>()
-                .InstancePerLifetimeScope();
+                .WithParameter("host", "smtp.gmail.com")
+                .WithParameter("port", 465)
+                .WithParameter("username", "")
+                .WithParameter("password", "")
+                .WithParameter("useSSL", true)
+                .WithParameter("from", "")
+		.InstancePerLifetimeScope();
 
             base.Load(builder);
         }
