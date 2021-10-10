@@ -24,6 +24,12 @@ namespace DataImporter.Web.Models.Groups
             _mapper = Startup.AutofacContainer.Resolve<IMapper>();
         }
 
+        public EditGroupModel(IGroupService groupService, IMapper mapper)
+        {
+            _groupService = groupService;
+            _mapper = mapper;
+        }
+
         public void LoadModelData(int id)
         {
             _mapper.Map(_groupService.GetGroup(id), this);
