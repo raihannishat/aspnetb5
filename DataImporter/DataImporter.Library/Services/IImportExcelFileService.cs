@@ -14,6 +14,7 @@ namespace DataImporter.Library.Services
             GetImportExcelFiles(int pageIndex, int pageSize, string searchText, string sortText, Guid userId);
         ImportExcelFile GetImportExcelFile(int id);
         IList<Entities.ImportExcelFile> GetAllImportExcelFile();
+        void ImportExcelFile();
         void UpdateImportExcelFile(ImportExcelFile importExcelFile);
         void DeleteImportExcelFile(int importExcelFileId);
     }
