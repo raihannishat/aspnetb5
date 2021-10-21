@@ -3,85 +3,23 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using DataImporter.Library.UnitOfWorks;
-using EO = DataImporter.Library.Entities;
+using DataImporter.Library.Services;
 using Autofac;
-using GemBox.Spreadsheet;
-using Microsoft.Extensions.Logging;
 
 namespace DataImporter.Worker.Model
 {
     public class WorkerModel
     {
-        private readonly ILogger<WorkerModel> _logger;
-        private readonly IDataImporterUnitOfWork _dataImporterUnitOfWork;
+        private readonly IImportExcelFileService _importExcelFileService;
 
         public WorkerModel()
         {
-            _dataImporterUnitOfWork = Worker.AutofacContainer.Resolve<IDataImporterUnitOfWork>();
+            _importExcelFileService = Worker.AutofacContainer.Resolve<IImportExcelFileService>();
         }
 
-        public void GetAllStatus()
+        public void Import()
         {
-            try
-            {
-                var status = _dataImporterUnitOfWork.ImportExcelFileRepository.GetAll();
-
-                string filePath = null;
-                var rows = new EO.ExcelRow();
-
-                foreach (var item in status)
-                {
-                    if (item.ImportStatus.Equals("Working"))
-                    {
-                        filePath = item.Location;
-                        rows.GroupId = item.GroupId;
-                        rows.UploadDate = item.ImportDate;
-                        item.ImportStatus = "Success";
-                        _dataImporterUnitOfWork.ExcelRowRepository.Add(rows);
-                        _dataImporterUnitOfWork.Save();
-                    }
-                    else
-                    {
-                        continue;
-                    }
-
-                    SpreadsheetInfo.SetLicense("FREE-LIMITED-KEY");
-                    var workbook = ExcelFile.Load(filePath);
-                    var list = new List<string>();
-
-                    foreach (var worksheet in workbook.Worksheets)
-                    {
-                        int count = 0;
-
-                        foreach (var row in worksheet.Rows)
-                        {
-                            foreach (var cell in row.AllocatedCells)
-                            {
-                                if (row.Name == "1")
-                                {
-                                    list.Add(cell.Value.ToString());
-                                }
-                                else if (cell.ValueType != CellValueType.Null)
-                                {
-                                    var columns = new EO.ExcelColumn();
-                                    columns.ExcelRowId = rows.Id;
-                                    columns.Column = list[count++];
-                                    columns.Value = cell.Value.ToString();
-                                    _dataImporterUnitOfWork.ExcelColumnRepository.Add(columns);
-                                    _dataImporterUnitOfWork.Save();
-                                }
-                            }
-
-                            count = 0;
-                        }
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                _logger.LogInformation(string.Empty, ex.Message);
-            }
+            _importExcelFileService.ImportExcelFile();
         }
     }
 }
