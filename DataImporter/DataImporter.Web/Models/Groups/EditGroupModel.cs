@@ -32,7 +32,8 @@ namespace DataImporter.Web.Models.Groups
 
         public void LoadModelData(int id)
         {
-            _mapper.Map(_groupService.GetGroup(id), this);
+            var group = _groupService.GetGroup(id);
+            _mapper.Map(group, this);
         }
 
         public void Update()

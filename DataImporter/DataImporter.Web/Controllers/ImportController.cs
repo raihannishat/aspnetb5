@@ -87,7 +87,7 @@ namespace DataImporter.Web.Controllers
             }
             catch (Exception ex)
             {
-                _logger.LogInformation(string.Empty, ex.Message);
+                _logger.LogInformation("Upload error Message: ", ex.Message);
             }
 
             return copy;
