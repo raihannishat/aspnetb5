@@ -13,32 +13,32 @@ namespace DataImporter.Web.Tests
     [ExcludeFromCodeCoverage]
     public class EditGroupModelTests
     {
-        private AutoMock _mock;
+        private AutoMock _autoMock;
         private Mock<IMapper> _mapperMock;
-        private Mock<IGroupService> _groupServiceMock;
         private EditGroupModel _editGroupModel;
+        private Mock<IGroupService> _groupServiceMock;
 
         [OneTimeSetUp]
-        public void ClassSetup()
+        public void OneTimeSetUp()
         {
-            _mock = AutoMock.GetLoose();
+            _autoMock = AutoMock.GetLoose();
         }
 
         [OneTimeTearDown]
-        public void ClassCleanup()
+        public void OneTimeTearDown()
         {
-            _mock?.Dispose();
+            _autoMock?.Dispose();
         }
 
         [SetUp]
-        public void Setup()
+        public void SetUp()
         {
-            _groupServiceMock = _mock.Mock<IGroupService>();
-            _mapperMock = _mock.Mock<IMapper>();
-            _editGroupModel = _mock.Create<EditGroupModel>();
+            _groupServiceMock = _autoMock.Mock<IGroupService>();
+            _mapperMock = _autoMock.Mock<IMapper>();
+            _editGroupModel = _autoMock.Create<EditGroupModel>();
         }
-
-        [OneTimeTearDown]
+        
+        [TearDown]
         public void TearDown()
         {
             _groupServiceMock?.Reset();
@@ -46,25 +46,29 @@ namespace DataImporter.Web.Tests
         }
 
         [Test]
-        public void LoadModelData_GroupExists_LoadsProperties()
+        public void LoadModelData_GroupExists_LoadProperties()
         {
             // Arrange
-            const int id = 3;
+            const int id = 5;
 
             var group = new Group
             {
                 Id = id,
-                Name = "Dev Skill",
+                Name = "My Group",
                 ApplicationUserId = Guid.NewGuid()
             };
 
             _groupServiceMock.Setup(x => x.GetGroup(id)).Returns(group).Verifiable();
-            _mapperMock.Setup(x => x.Map(group, It.IsAny<EditGroupModel>())).Verifiable();
+
+            _mapperMock.Setup(x => x.Map(
+                group, It.IsAny<EditGroupModel>()
+            )).Verifiable();
 
             // Act
             _editGroupModel.LoadModelData(id);
 
             // Assert
+            // Assert.AreEqual(id, _editGroupModel.Id);
             _groupServiceMock.VerifyAll();
             _mapperMock.VerifyAll();
         }
