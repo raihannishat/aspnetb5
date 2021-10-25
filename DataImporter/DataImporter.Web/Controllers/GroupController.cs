@@ -27,7 +27,7 @@ namespace DataImporter.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(new GroupListModel());
         }
 
         public IActionResult GetGroupData()
