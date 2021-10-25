@@ -98,9 +98,15 @@ namespace DataImporter.Library.Services
 
         public void CreateImportExcelFile(ImportExcelFile importExcelFile)
         {
-            //_dataImporterUnitOfWork
-            //    .ImportExcelFileRepository
-            //    .Add(_mapper.Map<Entities.ImportExcelFile>(importExcelFile));
+            _dataImporterUnitOfWork
+                .ImportExcelFileRepository
+                .Add(new Entities.ImportExcelFile 
+                {
+                    GroupId = importExcelFile.GroupId,
+                    Location = importExcelFile.Location,
+                    ImportDate = importExcelFile.ImportDate,
+                    ImportStatus = importExcelFile.ImportStatus,
+                });
 
             _dataImporterUnitOfWork.Save();
         }
@@ -127,8 +133,14 @@ namespace DataImporter.Library.Services
 
             if (importExcelFile == null) return null;
 
-            // return _mapper.Map<ImportExcelFile>(importExcelFile);
-            return new ImportExcelFile();
+            return new ImportExcelFile
+            {
+                Id = importExcelFile.Id,
+                GroupId = importExcelFile.GroupId,
+                Location = importExcelFile.Location,
+                ImportDate = importExcelFile.ImportDate,
+                ImportStatus = importExcelFile.ImportStatus,
+            };
         }
 
         public (IList<ImportExcelFile> records, int total, int totalDisplay) 
@@ -139,10 +151,17 @@ namespace DataImporter.Library.Services
                 x => x.Group.ApplicationUserId == userId :
                 x => x.ImportStatus.Contains(searchText), sortText, string.Empty, pageIndex, pageSize);
 
-            //var result = (from importFile in teamData.data
-            //              select _mapper.Map<ImportExcelFile>(importFile)).ToList();
+            var result = (from importFile in teamData.data
+                          select new ImportExcelFile 
+                          {
+                              Id = importFile.Id,
+                              ImportDate = importFile.ImportDate,
+                              ImportStatus = importFile.ImportStatus,
+                              GroupId = importFile.GroupId,
+                              Location = importFile.Location
+                          }).ToList();
 
-            return (new List<ImportExcelFile>(), teamData.total, teamData.totalDisplay);
+            return (result, teamData.total, teamData.totalDisplay);
         }
 
         public void UpdateImportExcelFile(ImportExcelFile importExcelFile)
@@ -153,7 +172,11 @@ namespace DataImporter.Library.Services
 
             if (importExcelFileEntity != null)
             {
-                //_mapper.Map(importExcelFile, importExcelFileEntity);
+                importExcelFileEntity.Id = importExcelFile.Id;
+                importExcelFileEntity.GroupId = importExcelFile.GroupId;
+                importExcelFileEntity.Location = importExcelFile.Location;
+                importExcelFileEntity.ImportStatus = importExcelFile.ImportStatus;
+                importExcelFileEntity.ImportDate = importExcelFile.ImportDate;
                 _dataImporterUnitOfWork.Save();
             }
             else
