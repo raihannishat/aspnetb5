@@ -24,12 +24,12 @@ namespace DataImporter.Web.Controllers
 
         public IActionResult Index()
         {
-            return View();
+            return View(new ImportListModel());
         }
 
         public IActionResult ImportHistory()
         {
-            return View();
+            return View(new ImportListModel());
         }
 
         public IActionResult GetImportData()
