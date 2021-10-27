@@ -26,6 +26,7 @@ namespace DataImporter.Web.Controllers
         private readonly RoleManager<Role> _roleManager;
         private readonly IEmailSender _emailSender;
         private readonly GoogleReCaptchaService _googleReCaptchaService;
+        private readonly IEmailService _emailService;
 
         public AccountController(
             UserManager<ApplicationUser> userManager,
@@ -33,6 +34,7 @@ namespace DataImporter.Web.Controllers
             RoleManager<Role> roleManager,
             ILogger<AccountController> logger,
             IEmailSender emailSender,
+            IEmailService emailService,
             GoogleReCaptchaService googleReCaptchaService)
         {
             _userManager = userManager;
@@ -40,6 +42,7 @@ namespace DataImporter.Web.Controllers
             _roleManager = roleManager;
             _logger = logger;
             _emailSender = emailSender;
+            _emailService = emailService;
             _googleReCaptchaService = googleReCaptchaService;
         }
 
@@ -87,8 +90,8 @@ namespace DataImporter.Web.Controllers
                     //await _emailSender.SendEmailAsync(model.Email, "Confirm your email",
                     //    $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
-                    //_emailService.SendEmail(model.Email, "Confirm your email",
-                    //   $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                    _emailService.SendEmail(model.Email, "Confirm your email",
+                       $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
 
                     if (_userManager.Options.SignIn.RequireConfirmedAccount)
                     {
